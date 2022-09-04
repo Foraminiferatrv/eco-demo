@@ -3,7 +3,7 @@ module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}", ],
   theme: {
     fontFamily: {
-      'Kollektif': [ '"Kollektif"', 'sans-serif' ]
+      'Nunito': [ '"Nunito"', 'sans-serif' ]
     },
     extend: {
       backgroundImage: {
