@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom"
+import BurgerMenu from "../../components/UI/BurgerMenu"
+
 import logo from '../../assets/img/logo.png'
 
 function Header() {
   return (
-    <header className="h-16 flex justify-end items-center fixed w-full">
+    <header className="h-16 flex justify-end items-center fixed w-full mt-4">
+      <BurgerMenu />
       <nav className="flex mx-auto container items-center justify-between p-14">
         <img src={logo} alt="logo" className="w-28" />
         <ul className="font-Nunito font-bold text-lg text-gray-100 flex space-x-3">
